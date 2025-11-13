@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs | VoltGym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">VOLT<span>GYM</span></div>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html" class="active">Programs</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== PROGRAMS SECTION ===== -->
+  <section class="programs-section">
+    <div class="container">
+      <h1 class="section-title">Our Programs</h1>
+      <p class="section-subtitle">Choose your path to fitness excellence</p>
+
+      <div class="programs-grid">
+        <div class="program-card">
+          <img src="images/image (12).png" alt="Strength Training" />
+          <h3>Strength Training</h3>
+          <p>Build raw power and sculpt your body with our advanced strength workouts.</p>
+        </div>
+
+        <div class="program-card">
+          <img src="images/image (14).png" alt="Cardio Training" />
+          <h3>Cardio Burn</h3>
+          <p>Boost stamina and burn calories with our high-energy cardio sessions.</p>
+        </div>
+
+        <div class="program-card">
+          <img src="images/image (8).png" alt="Yoga & Flexibility" />
+          <h3>Yoga & Flexibility</h3>
+          <p>Calm your mind and improve mobility with our yoga-inspired sessions.</p>
+        </div>
+
+        <div class="program-card">
+          <img src="images/image (10).png" alt="Personal Coaching" />
+          <h3>Personal Coaching</h3>
+          <p>Get one-on-one attention and customized plans from expert trainers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== JOIN STRIP ===== -->
+<section class="join-strip">
+  <div class="container join-content">
+    <h2>Ready to Transform Your Body?</h2>
+    <p>Join VoltGym today and start your journey toward strength, health, and confidence.</p>
+    <a href="contact.html" class="btn-join">Join Now</a>
+  </div>
+</section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 VoltGym. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

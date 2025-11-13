@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | VoltGym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">VOLT<span>GYM</span></div>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section">
+    <div class="container">
+      <h1 class="section-title">Contact Us</h1>
+      <p class="section-subtitle">Get in touch and start your fitness journey today</p>
+
+      <div class="contact-grid">
+        <!-- Left Info -->
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p>Our team is always here to help. Whether you’re looking to join, ask a question, or just say hi — we’d love to hear from you!</p>
+
+          <div class="info-item">
+            <h4>📍 Address</h4>
+            <p>VoltGym HQ, Main Street, Karachi, Pakistan</p>
+          </div>
+
+          <div class="info-item">
+            <h4>📞 Phone</h4>
+            <p>+92 300 1234567</p>
+          </div>
+
+          <div class="info-item">
+            <h4>📧 Email</h4>
+            <p>contact@voltgym.com</p>
+          </div>
+
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Right Form -->
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+<!-- ===== JOIN STRIP ===== -->
+<section class="join-strip">
+    <div class="container join-content">
+      <h2>Ready to Transform Your Body?</h2>
+      <p>Join VoltGym today and start your journey toward strength, health, and confidence.</p>
+      <a href="contact.html" class="btn-join">Join Now</a>
+    </div>
+  </section>
+  
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 VoltGym. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+    });
+  </script>
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a2e0a6a0e0.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

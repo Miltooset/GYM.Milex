@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing | VoltGym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">VOLT<span>GYM</span></div>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="pricing.html" class="active">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== PRICING SECTION ===== -->
+  <section class="pricing-section">
+    <div class="container">
+      <h1 class="section-title">Membership Plans</h1>
+      <p class="section-subtitle">Choose the plan that fits your goals and lifestyle</p>
+
+      <div class="pricing-grid">
+        <!-- Basic -->
+        <div class="price-card">
+          <h2>Basic</h2>
+          <p class="price">$19<span>/month</span></p>
+          <ul>
+            <li>Access to gym floor</li>
+            <li>Locker facility</li>
+            <li>1 Personal training session</li>
+            <li>Free fitness assessment</li>
+          </ul>
+          <button class="btn-price">Get Started</button>
+        </div>
+
+        <!-- Pro -->
+        <div class="price-card featured">
+          <h2>Pro</h2>
+          <p class="price">$39<span>/month</span></p>
+          <ul>
+            <li>All Basic features</li>
+            <li>Unlimited group classes</li>
+            <li>Sauna & spa access</li>
+            <li>2 Personal training sessions</li>
+          </ul>
+          <button class="btn-price">Join Now</button>
+        </div>
+
+        <!-- Elite -->
+        <div class="price-card">
+          <h2>Elite</h2>
+          <p class="price">$59<span>/month</span></p>
+          <ul>
+            <li>All Pro features</li>
+            <li>Private locker & lounge</li>
+            <li>Custom diet plan</li>
+            <li>24/7 access & priority support</li>
+          </ul>
+          <button class="btn-price">Upgrade</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== JOIN STRIP ===== -->
+<section class="join-strip">
+    <div class="container join-content">
+      <h2>Ready to Transform Your Body?</h2>
+      <p>Join VoltGym today and start your journey toward strength, health, and confidence.</p>
+      <a href="contact.html" class="btn-join">Join Now</a>
+    </div>
+  </section>
+  
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 VoltGym. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

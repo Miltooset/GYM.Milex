@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trainers | VoltGym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">VOLT<span>GYM</span></div>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="trainers.html" class="active">Trainers</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== TRAINERS SECTION ===== -->
+  <section class="trainers-section">
+    <div class="container">
+      <h1 class="section-title">Meet Our Trainers</h1>
+      <p class="section-subtitle">Experts who will help you reach your best version</p>
+
+      <div class="trainers-grid">
+        <div class="trainer-card">
+          <img src="images/image (2).png" alt="Trainer 1">
+          <div class="trainer-info">
+            <h3>Alex Stone</h3>
+            <p>Strength & Conditioning Coach</p>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <img src="images/image (3).png" alt="Trainer 2">
+          <div class="trainer-info">
+            <h3>Maria Lopez</h3>
+            <p>Yoga & Flexibility Expert</p>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <img src="images/trainer3.jpg" alt="Trainer 3">
+          <div class="trainer-info">
+            <h3>Daniel Brooks</h3>
+            <p>Personal Training Specialist</p>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <img src="images/trainer4.jpg" alt="Trainer 4">
+          <div class="trainer-info">
+            <h3>Sarah Khan</h3>
+            <p>Cardio & Endurance Coach</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== JOIN STRIP ===== -->
+<section class="join-strip">
+  <div class="container join-content">
+    <h2>Ready to Transform Your Body?</h2>
+    <p>Join VoltGym today and start your journey toward strength, health, and confidence.</p>
+    <a href="contact.html" class="btn-join">Join Now</a>
+  </div>
+</section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 VoltGym. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
+  
